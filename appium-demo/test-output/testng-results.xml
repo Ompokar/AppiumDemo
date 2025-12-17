@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-16T16:23:23 IST" name="Default suite" finished-at="2025-12-16T16:23:44 IST" duration-ms="21454">
+    <groups>
+    </groups>
+    <test started-at="2025-12-16T16:23:23 IST" name="Default test" finished-at="2025-12-16T16:23:44 IST" duration-ms="21454">
+      <class name="Demo.AppiumPOMExtentDemo">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:Demo.AppiumPOMExtentDemo@5bda8e08]" started-at="2025-12-16T16:23:22 IST" name="setupReport" finished-at="2025-12-16T16:23:23 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Demo.AppiumPOMExtentDemo@5bda8e08]" started-at="2025-12-16T16:23:23 IST" name="setup" finished-at="2025-12-16T16:23:27 IST" duration-ms="3895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Demo.AppiumPOMExtentDemo.controlsFlowTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="controlsFlowTest()[pri:0, instance:Demo.AppiumPOMExtentDemo@5bda8e08]" started-at="2025-12-16T16:23:27 IST" name="controlsFlowTest" finished-at="2025-12-16T16:23:44 IST" duration-ms="16937" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-88-generic', java.version: '11.0.29'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [620e1e00-6347-41f3-bee3-52fee891cadb, findElement {using=id, value=io.appium.android.apis:id/edit}]
+Capabilities {appium:appActivity: io.appium.android.apis.ApiD..., appium:appPackage: io.appium.android.apis, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, automationName: UiAutomator2, deviceName: Samsung SM-S931B, noReset: true, platformName: ANDROID, platformVersion: 14, udid: 192.168.1.12:5555}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-S931B, appium:deviceName: 192.168.1.12:5555, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 192.168.1.12:5555, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 16, appium:statBarHeight: 91, appium:takesScreenshot: true, appium:udid: 192.168.1.12:5555, appium:viewportRect: {height: 2249, left: 0, top: 91, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 620e1e00-6347-41f3-bee3-52fee891cadb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.29.0', revision: '5fc1ec94cb'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-88-generic', java.version: '11.0.29'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [620e1e00-6347-41f3-bee3-52fee891cadb, findElement {using=id, value=io.appium.android.apis:id/edit}]
+Capabilities {appium:appActivity: io.appium.android.apis.ApiD..., appium:appPackage: io.appium.android.apis, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, automationName: UiAutomator2, deviceName: Samsung SM-S931B, noReset: true, platformName: ANDROID, platformVersion: 14, udid: 192.168.1.12:5555}, appium:deviceApiLevel: 36, appium:deviceManufacturer: samsung, appium:deviceModel: SM-S931B, appium:deviceName: 192.168.1.12:5555, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: 192.168.1.12:5555, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 3, appium:platformVersion: 16, appium:statBarHeight: 91, appium:takesScreenshot: true, appium:udid: 192.168.1.12:5555, appium:viewportRect: {height: 2249, left: 0, top: 91, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 620e1e00-6347-41f3-bee3-52fee891cadb
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at Demo.ControlsPage.enterName(ControlsPage.java:31)
+at Demo.AppiumPOMExtentDemo.controlsFlowTest(AppiumPOMExtentDemo.java:16)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- controlsFlowTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:Demo.AppiumPOMExtentDemo@5bda8e08]" started-at="2025-12-16T16:23:44 IST" name="tearDown" finished-at="2025-12-16T16:23:44 IST" duration-ms="574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=controlsFlowTest status=FAILURE method=AppiumPOMExtentDemo.controlsFlowTest()[pri:0, instance:Demo.AppiumPOMExtentDemo@5bda8e08] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:Demo.AppiumPOMExtentDemo@5bda8e08]" started-at="2025-12-16T16:23:44 IST" name="flushReport" finished-at="2025-12-16T16:23:45 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- Demo.AppiumPOMExtentDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
