@@ -5,7 +5,7 @@ import java.time.Duration;
 import java.lang.reflect.Method;
 
 import org.testng.ITestResult;
-import org.testng.annotations.*;n
+import org.testng.annotations.*;
 
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
